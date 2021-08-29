@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: fantasy;
+}
+
+.git {
+  font-size: 8rem;
+  background: linear-gradient(#f67280, #c06c84);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 3rem;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
